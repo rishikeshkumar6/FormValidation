@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document object model</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <form>
+        
+           
+        <div id="user">
+            <label for="user">userName</label>
+            <input type="text" id="user1" onkeyup="spaceCheck(this.value)"/>
+            
+        </div>
+        
+        <div id="passWord">
+            <label for="pass">Password</label>
+            <input type="password" id="pass" onkeyup=" passChek(this.value) " onchange="Check()" />
+        </div>
+        <div id="conformPassword">
+            <label for="conformpass" >conformPassword</label>
+            <input type="password" id="conformpass" onkeyup="conformPassCheck(this.value)" onchange="Check1()"/>
+            <p id="conformPassCheck" ></p>
+        </div>
+        <div id="dynamic">
+        <label id="lower" class="char"></label>
+        <label id="upper" class="char"></label>
+        <label id="number" class="char"></label>
+        <label id="speChar" class="char"></label>
+        <label id="eightChar" class="char"></label>
+        </div>
+        <div>
+            <p id="spaceCheck"></p>
+        </div>
+
+        <script src="./script.js"></script>
+    
+</form>
+   
+    
+</body>
+</html>

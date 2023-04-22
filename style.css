@@ -1,0 +1,58 @@
+form{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left:450px ;
+    margin-top: 150px;
+    width: 450px;
+    height: 500px;
+    background-color: rgb(245, 245, 254);
+}
+#spaceCheck{
+    color: red;
+}
+#user{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+#passWord{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+#conformPassword{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+#user1{
+    display: flex;
+    border-radius: 15px;
+    height: 24px;
+    width: 270px;
+}
+#pass{
+    display: flex;
+    border-radius: 15px;
+    height: 24px;
+    width: 270px;
+}
+#conformpass{
+    display: flex;
+    border-radius: 15px;
+    height: 24px;
+    width: 270px;
+}
+#dynamic{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 20px;
+    font-weight: 350px;
+}
